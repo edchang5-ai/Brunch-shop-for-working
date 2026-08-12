@@ -1,0 +1,16 @@
+{
+  "name": "brunch-shop-for-working",
+  "version": "1.0.0",
+  "description": "彰化市 brunch 店工作情報查詢 - 營業時間 / 電源 / 咖啡",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
